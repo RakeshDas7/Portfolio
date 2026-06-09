@@ -1,0 +1,75 @@
+@import "./variables.css";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  html{
+    scroll-behavior:smooth;
+  }
+  
+  body{
+  
+    font-family:Arial,sans-serif;
+  
+    background:var(--bg-primary);
+  
+    color:var(--text-primary);
+  
+    min-height:100vh;
+  
+    padding:0;
+  
+    overflow-x:hidden;
+  
+  }
+  
+  ul{
+    list-style:none;
+  }
+  
+  a{
+    text-decoration:none;
+    color:inherit;
+  }
+
+  .background{
+
+    position:fixed;
+  
+    inset:0;
+  
+    z-index:-1;
+  
+    background:
+    linear-gradient(
+      -45deg,
+      #0b1020,
+      #121a35,
+      #1e1b4b,
+      #0f172a
+    );
+  
+    background-size:400% 400%;
+  
+    animation:gradientMove 12s ease infinite;
+  
+  }
+  
+  @keyframes gradientMove{
+  
+    0%{
+      background-position:0% 50%;
+    }
+  
+    50%{
+      background-position:100% 50%;
+    }
+  
+    100%{
+      background-position:0% 50%;
+    }
+  
+  }

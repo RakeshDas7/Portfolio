@@ -1,0 +1,25 @@
+.about{
+
+    min-height:80vh;
+  
+    padding:6rem 8%;
+  
+  }
+  
+  .about h2{
+  
+    font-size:3rem;
+  
+    margin-bottom:2rem;
+  
+  }
+  
+  .about p{
+  
+    max-width:700px;
+  
+    line-height:1.8;
+  
+    color:var(--text-secondary);
+  
+  }

@@ -1,0 +1,21 @@
+.skill-card{
+
+    padding:1.5rem;
+  
+    background:var(--glass-bg);
+  
+    border:1px solid var(--glass-border);
+  
+    border-radius:var(--radius);
+  
+    backdrop-filter:blur(10px);
+  
+    transition:.3s;
+  
+  }
+  
+  .skill-card:hover{
+  
+    transform:translateY(-5px);
+  
+  }

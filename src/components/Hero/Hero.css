@@ -1,0 +1,111 @@
+.hero{
+
+    min-height:85vh;
+  
+    display:flex;
+  
+    flex-direction:column;
+  
+    justify-content:center;
+  
+    padding:0 8%;
+  
+  }
+  
+  .hero-greeting{
+  
+    color:var(--accent-secondary);
+  
+    font-size:1.1rem;
+  
+    margin-bottom:1rem;
+  
+  }
+  
+  .hero-title{
+  
+    font-size:5rem;
+  
+    line-height:1.1;
+  
+  }
+  
+  .hero-subtitle{
+  
+    margin-top:1rem;
+  
+    font-size:2rem;
+  
+    color:var(--text-secondary);
+  
+  }
+  
+  .hero-description{
+  
+    margin-top:1.5rem;
+  
+    max-width:650px;
+  
+    line-height:1.8;
+  
+    color:var(--text-secondary);
+  
+  }
+  
+  .hero-buttons{
+  
+    display:flex;
+  
+    gap:1rem;
+  
+    margin-top:2rem;
+  
+  }
+
+  .primary-btn{
+
+    padding:0.9rem 1.8rem;
+  
+    border:none;
+  
+    border-radius:var(--radius);
+  
+    background:var(--accent-primary);
+  
+    color:white;
+  
+    cursor:pointer;
+  
+    transition:0.3s;
+  
+  }
+  
+  .primary-btn:hover{
+  
+    transform:translateY(-3px);
+  
+  }
+
+  .secondary-btn{
+
+    padding:0.9rem 1.8rem;
+  
+    border-radius:var(--radius);
+  
+    border:1px solid var(--glass-border);
+  
+    background:var(--glass-bg);
+  
+    color:white;
+  
+    cursor:pointer;
+  
+    transition:0.3s;
+  
+  }
+  
+  .secondary-btn:hover{
+  
+    transform:translateY(-3px);
+  
+  }
