@@ -3,30 +3,32 @@ import SkillCard from "../SkillCard/SkillCard";
 
 function Skills() {
 
-  return (
+  const skills = [
+    "React",
+    "Java",
+    "Spring Boot",
+    "MySQL",
+    "Git"
+  ];
 
+  return (
     <section id="skills" className="skills">
 
       <h2>Skills</h2>
 
       <div className="skills-grid">
 
-        <SkillCard skill="React" />
-
-        <SkillCard skill="Java" />
-
-        <SkillCard skill="Spring Boot" />
-
-        <SkillCard skill="MySQL" />
-
-        <SkillCard skill="Git" />
+        {skills.map((skill) => (
+          <SkillCard
+            key={skill}
+            skill={skill}
+          />
+        ))}
 
       </div>
 
     </section>
-
   );
-
 }
 
 export default Skills;
