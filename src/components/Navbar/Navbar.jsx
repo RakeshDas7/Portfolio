@@ -3,23 +3,25 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-
-      <div className="logo">
-        Rakesh.
-      </div>
+      <div className="logo">Rakesh.</div>
 
       <ul className="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
 
-        <li>About</li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
 
-        <li>Skills</li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
 
-        <li>Projects</li>
-
-        <li>Contact</li>
-
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
-
     </nav>
   );
 }
