@@ -1,75 +1,122 @@
 @import "./variables.css";
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
-  
-  html{
-    scroll-behavior:smooth;
-  }
-  
-  body{
-  
-    font-family:Arial,sans-serif;
-  
-    background:var(--bg-primary);
-  
-    color:var(--text-primary);
-  
-    min-height:100vh;
-  
-    padding:0;
-  
-    overflow-x:hidden;
-  
-  }
-  
-  ul{
-    list-style:none;
-  }
-  
-  a{
-    text-decoration:none;
-    color:inherit;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: var(--bg-primary);
+
+  color: var(--text-primary);
+
+  min-height: 100vh;
+
+  padding: 0;
+
+  overflow-x: hidden;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.background{
+
+  position:fixed;
+
+  inset:0;
+
+  overflow:hidden;
+
+  z-index:-2;
+
+  pointer-events:none;
+
+}
+
+.orb{
+
+  position:absolute;
+
+  border-radius:50%;
+
+  filter:blur(120px);
+
+  opacity:.25;
+
+  pointer-events:none;
+
+  animation: floatOrb 12s ease-in-out infinite;
+
+}
+
+.orb1{
+
+  width:350px;
+  height:350px;
+
+  background:#7c5cff;
+
+  top:10%;
+  left:5%;
+
+}
+
+.orb2{
+
+  width:400px;
+  height:400px;
+
+  background:#58d5ff;
+
+  bottom:10%;
+  right:10%;
+
+  animation-delay:2s;
+
+}
+
+.orb3{
+
+  width:280px;
+  height:280px;
+
+  background:#7c5cff;
+
+  top:45%;
+  right:35%;
+
+  animation-delay:4s;
+
+}
+
+@keyframes floatOrb{
+
+  0%{
+    transform:translate(0,0);
   }
 
-  .background{
+  50%{
+    transform:translate(40px,-40px);
+  }
 
-    position:fixed;
-  
-    inset:0;
-  
-    z-index:-1;
-  
-    background:
-    linear-gradient(
-      -45deg,
-      #0b1020,
-      #121a35,
-      #1e1b4b,
-      #0f172a
-    );
-  
-    background-size:400% 400%;
-  
-    animation:gradientMove 12s ease infinite;
-  
+  100%{
+    transform:translate(0,0);
   }
-  
-  @keyframes gradientMove{
-  
-    0%{
-      background-position:0% 50%;
-    }
-  
-    50%{
-      background-position:100% 50%;
-    }
-  
-    100%{
-      background-position:0% 50%;
-    }
-  
-  }
+
+}

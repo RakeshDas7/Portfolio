@@ -1,0 +1,56 @@
+.stats{
+
+    padding:4rem 8%;
+  
+    display:grid;
+  
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+  
+    gap:1.5rem;
+  
+  }
+
+  .stat-card{
+
+    background:var(--glass-bg);
+  
+    border:1px solid var(--glass-border);
+  
+    border-radius:var(--radius);
+  
+    padding:2rem;
+  
+    text-align:center;
+  
+    backdrop-filter:blur(12px);
+  
+    transition:.3s;
+  
+  }
+
+  .stat-card:hover{
+
+    transform:
+    translateY(-8px);
+  
+    box-shadow:
+    var(--shadow-glow);
+  
+  }
+
+  .stat-card h3{
+
+    font-size:1.8rem;
+  
+    margin-bottom:.5rem;
+  
+    color:var(--accent-secondary);
+  
+  }
+
+  .stat-card p{
+
+    color:var(--text-secondary);
+  
+  }

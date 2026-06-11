@@ -1,0 +1,105 @@
+.journey{
+
+    padding:6rem 8%;
+  
+  }
+  
+  .journey h2{
+  
+    font-size:3rem;
+  
+    margin-bottom:4rem;
+  
+  }
+  
+  .timeline{
+  
+    position:relative;
+  
+    margin-left:20px;
+  
+  }
+  
+  .timeline::before{
+  
+    content:"";
+  
+    position:absolute;
+  
+    left:8px;
+  
+    top:0;
+  
+    width:2px;
+  
+    height:100%;
+  
+    background:var(--glass-border);
+  
+  }
+
+  .timeline-item{
+
+    position:relative;
+  
+    margin-bottom:3rem;
+  
+    padding-left:3rem;
+  
+  }
+
+  .timeline-dot{
+
+    position:absolute;
+  
+    left:0;
+  
+    top:8px;
+  
+    width:18px;
+  
+    height:18px;
+  
+    border-radius:50%;
+  
+    background:var(--accent-secondary);
+  
+    box-shadow:var(--shadow-glow);
+  
+  }
+
+  .timeline-content{
+
+    background:var(--glass-bg);
+  
+    border:1px solid var(--glass-border);
+  
+    border-radius:var(--radius);
+  
+    padding:1.5rem;
+  
+    backdrop-filter:blur(12px);
+  
+  }
+
+  .timeline-year{
+
+    color:var(--accent-secondary);
+  
+    font-weight:bold;
+  
+  }
+
+  .timeline-content h3{
+
+    margin:0.8rem 0;
+  
+  }
+
+  .timeline-content p{
+
+    color:var(--text-secondary);
+  
+    line-height:1.8;
+  
+  }

@@ -5,7 +5,10 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <div className="hero-badge">Open to Opportunities</div>
+
+        <div className="hero-badge">
+          Open to Opportunities
+        </div>
 
         <motion.p
           className="hero-greeting"
@@ -31,11 +34,11 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Building Modern Web Experiences
+          Aspiring Java Backend Developer
         </motion.h2>
 
         <p className="hero-description">
-          Currently learning React, Java, Spring Boot and modern backend
+          Currently learning React, Java, Spring Boot, MySQL and modern backend
           development while building real-world projects and strengthening my
           software engineering skills.
         </p>
@@ -46,14 +49,37 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2 }}
         >
-          <button className="primary-btn">Contact Me</button>
+          <a href="#contact" className="primary-btn">
+            Contact Me
+          </a>
 
-          <button className="secondary-btn">GitHub</button>
+          <a
+            href="https://github.com/RakeshDas7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="secondary-btn"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/rakesh-das-633b39321/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="secondary-btn"
+          >
+            LinkedIn
+          </a>
         </motion.div>
+
       </div>
 
       <div className="hero-image">
-        <div className="profile-circle">RD</div>
+
+        <div className="profile-circle">
+          RD
+        </div>
+
       </div>
     </section>
   );

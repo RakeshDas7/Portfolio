@@ -24,3 +24,35 @@
     gap:1.5rem;
   
   }
+
+  .skill-category{
+
+    background:var(--glass-bg);
+  
+    border:1px solid var(--glass-border);
+  
+    border-radius:var(--radius);
+  
+    padding:2rem;
+  
+    backdrop-filter:blur(12px);
+  
+  }
+
+  .skill-category h3{
+
+    margin-bottom:1.5rem;
+  
+    color:var(--accent-secondary);
+  
+  }
+
+  .category-skills{
+
+    display:flex;
+  
+    flex-wrap:wrap;
+  
+    gap:1rem;
+  
+  }
