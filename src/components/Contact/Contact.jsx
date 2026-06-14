@@ -2,28 +2,22 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <section
-      id="contact"
-      className="contact"
-    >
-      <h2>Contact Me</h2>
+    <section id="contact" className="contact">
+      <h2>
+        <span>05.</span> Let's Connect
+      </h2>
 
       <p className="contact-text">
-        I'm always open to learning,
-        collaboration and new opportunities.
+        I'm always open to learning, collaboration and new opportunities.
       </p>
 
       <div className="contact-links">
-
-        <a
-          href="mailto:rakeshdas1477@gmail.com"
-          className="contact-btn"
-        >
+        <a href="mailto:rakeshdas1477@gmail.com" className="contact-btn">
           Email Me
         </a>
 
         <a
-          href="https://github.com/YOUR_USERNAME"
+          href="https://github.com/RakeshDas7"
           target="_blank"
           rel="noreferrer"
           className="contact-btn"
@@ -32,14 +26,13 @@ function Contact() {
         </a>
 
         <a
-          href="https://linkedin.com/in/YOUR_LINKEDIN"
+          href="https://www.linkedin.com/in/rakesh-das-633b39321/"
           target="_blank"
           rel="noreferrer"
           className="contact-btn"
         >
           LinkedIn
         </a>
-
       </div>
     </section>
   );

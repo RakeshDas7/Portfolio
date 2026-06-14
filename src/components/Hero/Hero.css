@@ -250,3 +250,59 @@
   }
 
 }
+
+@media (max-width: 768px){
+
+  .hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding-top:6rem;
+
+  }
+
+  .hero-content{
+
+    order:2;
+
+  }
+
+  .hero-image{
+
+    order:1;
+
+  }
+
+  .hero-title{
+
+    font-size:3rem;
+
+  }
+
+  .hero-subtitle{
+
+    font-size:1.4rem;
+
+  }
+
+  .hero-buttons{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+  }
+
+  .profile-circle{
+
+    width:180px;
+
+    height:180px;
+
+    font-size:2.5rem;
+
+  }
+
+}

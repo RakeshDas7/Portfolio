@@ -103,3 +103,11 @@
     line-height:1.8;
   
   }
+
+  .journey h2 span{
+
+    color:var(--accent-secondary);
+  
+    margin-right:.5rem;
+  
+  }

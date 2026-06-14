@@ -41,10 +41,6 @@ function App() {
         <Contact />
       </Reveal>
 
-      <Reveal>
-        <Contact />
-      </Reveal>
-
       <Footer />
     </>
   );
